@@ -1,27 +1,27 @@
-# #hijo prodigo
+# #hijo prodigo------------------------------------------------
 # nombre = input("Ingrese su nombre: ") #guardar lo que se escribe
 # #variables
 # dinero = 100
 # dignidad = 50
 # hambre = 0
 
-# print(f"{nombre} ha recibido su herencia") #100
-# print ("Que desea hacer con su herencia?")
-# print ("1. Gastarlo todo en fiestas")
-# print ("2. Invertir")
-# print ("3. Ahorrar")
+ print(f"{nombre} ha recibido su herencia") #100
+ print ("Que desea hacer con su herencia?")
+ print ("1. Gastarlo todo en fiestas")
+ print ("2. Invertir")
+ print ("3. Ahorrar")
 
-# opcion = int(input("Elige una opcion: "))
-# if opcion == 1:
-#     dinero = 0
-#     dignidad -=20
-#     hambre += 50
-# elif opcion == 2:
-#     dinero +=20
-# elif opcion == 3:
-#     print("Muy bien usted esta ahorrando") 
-# else:
-#     print("Esta opcion es invalida")      
+ opcion = int(input("Elige una opcion: "))
+ if opcion == 1:
+     dinero = 0
+     dignidad -=20
+     hambre += 50
+ elif opcion == 2:
+     dinero +=20
+ elif opcion == 3:
+     print("Muy bien usted esta ahorrando") 
+ else:
+     print("Esta opcion es invalida")      
     
 # # gastar(dinero, dignidad)
 # # trabajar(dinero, hambre)
@@ -39,7 +39,7 @@
 # while dinero > 0:
 #     print("“Sigues viviendo lejos de casa…”")
 #     dinero -= 10
-# -------------OBJETOS
+# ---------------------------------------------------------------------OBJETOS
 # HijoProdigo
 # Debe incluir:
 # Atributos:
@@ -96,7 +96,7 @@ print("El dinero se acabo")
 print("Su nivel de arrepentimiento esta en :" , jugador.arrepentimiento)      
                 
             
-# -----
+# -----------------------------------------------------------
 opcion = int(input("Elige una opcion: "))
 if opcion == 1:
     jugador.gastar_todo()
